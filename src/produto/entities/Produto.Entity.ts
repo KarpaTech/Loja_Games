@@ -1,5 +1,5 @@
 import { IsNotEmpty } from 'class-validator';
-import { Categoria } from 'src/categoria/entities/Categoria.Entity';
+import { Categoria } from 'src/categoria/entities/categoria.entity';
 import {
   Column,
   Entity,

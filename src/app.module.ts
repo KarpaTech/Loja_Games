@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Produtos } from './produto/entities/Produto.Entity';
-import { ProdutoModule } from './produto/Produto.Module';
-import { Categoria } from './categoria/entities/Categoria.Entity';
-import { CategoriaModule } from './categoria/Categoria.Module';
+import { Produtos } from './produto/entities/produto.entity';
+import { ProdutoModule } from './produto/produto.module';
+import { Categoria } from './categoria/entities/categoria.entity';
+import { CategoriaModule } from './categoria/categoria.module';
 
 @Module({
   imports: [

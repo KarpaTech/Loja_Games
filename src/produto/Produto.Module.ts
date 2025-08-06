@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Produtos } from './entities/Produto.Entity';
-import { ProdutoService } from './services/Produto.Service';
-import { ProdutoController } from './controllers/Produto.Controller';
-import { CategoriaModule } from 'src/categoria/Categoria.Module';
+import { Produtos } from './entities/produto.entity';
+import { ProdutoService } from './services/produto.service';
+import { ProdutoController } from './controllers/produto.controller';
+import { CategoriaModule } from 'src/categoria/categoria.module';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Produtos]), CategoriaModule],
